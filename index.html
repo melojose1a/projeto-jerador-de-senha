@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gerador de Senhas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="conteudo">
+<header class="cabecalho">
+<h1 class="titulo-site">Bem-vindo ao Gerador de Senhas</h1>
+<p class="texto-site">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+facilisis, turpis at
+efficitur dignissim, magna ligula posuere neque, sed tristique elit ipsum vitae turpis.</p>
+</header>
+<section class="galeria">
+<img src="imagem1.jpg" id="imagem1" alt="Imagem 1">
+<img src="imagem2.jpg" id="imagem2" alt="Imagem 2">
+<img src="imagem3.jpg" id="imagem3" alt="Imagem 3">
+<img src="imagem4.jpg" id="imagem4" alt="Imagem 4">
+<img src="imagem5.jpg" id="imagem5" alt="Imagem 5">
+</section>
+<div class="conteudo-titulo">
+<img src="unlock.svg" alt="cadeado">
+<h2 class="titulo-principal">Gerador de senhas</h2>
+<h3 class="titulo-secundario">Gere instantaneamente uma senha aleatória e segura</h3>
+</div>
+<div class="conteudo-senha">
+<label for="campo-senha">Senha</label>
+<input id="campo-senha" type="text" readonly>
+</div>
+<div class="parametro">
+<h3 class="parametro-titulo">Personalize sua senha</h3>
+<div class="parametro-coluna__senha">
+<div class="parametro-senha">
+<h4 class="parametro-senha__titulo">Número de caracteres</h4>
+<div class="parametro-senha-botoes">
+<button class="parametro-senha__botao">-</button>
+<p class="parametro-senha__texto">12</p>
+<button class="parametro-senha__botao">+</button>
+</div>
+</div>
+<div class="parametro-senha">
+<h4 class="parametro-senha__titulo">Características da senha</h4>
+<div><input class="checkbox" checked type="checkbox"> Letras maiúsculas</div>
+<div><input class="checkbox" type="checkbox"> Letras minúsculas</div>
+<div><input class="checkbox" type="checkbox"> Números</div>
+<div><input class="checkbox" type="checkbox"> Símbolos</div>
+</div>
 
+<div class="parametro-senha">
+<h4 class="parametro-senha__titulo">Força da senha</h4>
+<div class="barra"></div>
+<div class="forca fraca"></div>
+<div class="parametro-senha-textos">
+<p>Fraca</p>
+<p>Média</p>
+<p>Forte</p>
+</div>
+<p class="entropia"></p>
+</div>
+</div>
+</div>
+</section>
+<script src="main.js"></script>
+</body>
+</html>
